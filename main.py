@@ -4,6 +4,5 @@ def suma(a,b):
 def multiplicacion(a,b):
     resul = a
     for i in range(1,b):
-        resul = resul + a
+        resul = suma(resul, a)
     return resul
-
