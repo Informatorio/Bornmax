@@ -7,4 +7,3 @@ def multiplicacion(a,b):
         resul = resul + a
     return resul
 
-print(multiplicacion(3,3))
